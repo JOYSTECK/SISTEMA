@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nova Square';
+}
+
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 10px 50px;
+    border-radius: 90px;
+}
+
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+
+}
+
+.encabezado-img{
+    background-image: url(TIENDA.png);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#111212;
+}
+
+.encabezado-img p{
+    font-size: 20px;
+}
+.encabezado-img h1{
+        font-size: 80px;
+        padding: 20px 0;
+}
